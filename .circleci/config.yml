@@ -5,9 +5,9 @@ jobs:
       # specify the version you desire here
       - image: circleci/openjdk:8-jdk
         environment:
-            JDBC_DATABASE_URL: jdbc:postgresql://localhost:5432/my_fitness_note
-            JDBC_DATABASE_USERNAME: root
-            JDBC_DATABASE_PASSWORD: root
+          JDBC_DATABASE_URL: jdbc:postgresql://localhost:5432/my_fitness_note
+          POSTGRES_USERNAM : root
+          POSTGRES_PASSWORD : root
 
 
       - image: circleci/postgres:13.2
